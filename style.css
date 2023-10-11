@@ -1,0 +1,151 @@
+
+/* Set a background color */
+body {
+    color: white;
+    font-family: Arial, sans-serif;
+    animation: changeBackgroundColor 30s linear infinite;
+}
+
+/* Style the headings */
+h1 {
+    color: #white; /* Red */
+}
+
+h2 {
+    color: white; /* Blue */
+}
+
+/* Style the navigation menu as tabs */
+nav {
+    background-color: #36454F; /* Background color of the tab bar */
+    overflow: hidden;
+
+  /* Add this CSS to center-align the navigation tabs */
+.center-tabs {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.center-tabs li {
+    margin: 0 10px; /* Add space between tabs */
+}
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the appearance of the active tab (the current page) */
+li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style buttons */
+button {
+    background-color: #F39C12; /* Orange */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #D35400; /* Darker orange on hover */
+}
+
+/* Style hyperlinks */
+a {
+    color: #E74C3C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C0392B; /* Darker red on hover */
+}
+
+/* Style lists */
+ul {
+    list-style: square;
+    margin-left: 20px;
+    color: #white;
+}
+
+/* Style tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #E5E7E9; /* Light gray */
+    padding: 8px;
+    text-align: left;
+}
+
+/* Add styles for the Rubik's Cube, NYC, and basketball elements */
+/* For example, you can add a Rubik's Cube background image or basketball-related graphics as needed. */
+
+/* Footer style */
+footer {
+    background-color: #34495E; /* Navy blue */
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+/* Style buttons */
+button {
+    background-color: #3498DB; /* Blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980B9; /* Darker blue on hover */
+}
+@keyframes changeBackgroundColor {
+    0% { background-color: 	#8B0000; }
+    5% { background-color: #8B8000; }
+    10% { background-color: #006400; }
+    15% { background-color: #2B2C5A; }
+    20% { background-color: #301934; }
+    25% { background-color: #AA336A; }
+    30% { background-color: 	#8B0000; }
+    35% { background-color: #8B8000; }
+    40% { background-color: #006400; }
+    45% { background-color: #2B2C5A; }
+    50% { background-color: #301934; }
+    55% { background-color: #AA336A; }
+    60% { background-color: 	#8B0000; }
+    65% { background-color: #8B8000; }
+    70% { background-color: #006400; }
+    75% { background-color: #2B2C5A; }
+    80% { background-color: #301934; }
+    85% { background-color: #AA336A; }
+    90% { background-color: 	#8B0000; }
+    95% { background-color: #8B8000; }
+    100% { background-color: #006400; }
+}
+

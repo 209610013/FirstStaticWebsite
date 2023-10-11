@@ -3,28 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome to My Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  
+    <!-- Header section -->
     <header>
         <h1>Welcome to My Website</h1>
+      <body style="text-align: center;">
     </header>
     
+    <!-- Navigation menu -->
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="favorites.html">Hobbies</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="spots.html">NYC Spots</a></li>
-        </ul>
-    </nav>
+      
+     <ul class="center-tabs">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="favorites.html">Hobbies</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="spots.html">NYC Spots</a></li>
+    </ul>
+      
+</nav>
 
+    <!-- About Me section -->
     <div>
         <h2>About Me</h2>
-        <p>Hello, I'm Jinsong Lin. Welcome to my website! In this class, I'd like to introduce myself and share some of my interests, skills, and favorite places in NYC.</p>
+        <p>Hello, I'm Jinsong Lin. Welcome to my website! In this class, I'd like to introduce myself and share some of my interests, skills, and favorite places in NYC.
+        
+        
+         <table>
+        <tr>
+            <th>Hobby</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Playing Basketball</td>
+            <td>I love playing basketball with friends at the local court.</td>
+        </tr>
+        <tr>
+            <td>Playing Games</td>
+            <td>I enjoy playing video games with my friends during leisure time.</td>
+        </tr>
+        <tr>
+            <td>Interest in Computer Science</td>
+            <td>I'm passionate about computer science and enjoy coding and learning about technology.</td>
+        </tr>
+        <tr>
+            <td>Interest in Mathematics</td>
+            <td>Mathematics is fascinating to me, and I like exploring its various branches.</td>
+        </tr>
+    </table>
+</body>
+</html>
+        </p>
+      
+        <p>Here's a list of some of my favorite things:</p>
+        <ul>
+            <li>Favorite Food: Sushi</li>
+          <br/>
+          <img src="https://knifeandsoul.com/wp-content/uploads/2022/09/crunchy-roll-sushi-recipe-recipe-card.jpg" alt="Image 2" width="25%">
+          '<a href="https://secretsofsushi.com/">Secrets of Sushi</a>'    
+      <br/><br/>
+          
+            <li>Favorite Book: "To Kill a Mockingbird"</li>
+          <br/>
+          <img src="https://cdn.kobo.com/book-images/63901e1f-e685-4659-8ba8-d1eab571a31e/353/569/90/False/to-kill-a-mockingbird-3.jpg" alt="To Kill a Mockingbird" width="117" height="189"> 
+          '<a href="https://www.raio.org/TKMFullText.pdf">Read Online</a>'<br/><br/><br/><br/>
+        </ul>
     </div>
 
+
+    <!-- At Least One Audio File with Controls -->
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- At Least One Video File with Controls -->
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <!-- At Least One Form -->
+    <div>
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, please use the form below:</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- At Least One Generic Container (div) and One Semantic Container (span) -->
+    <div class="generic-container">This is a generic container (div).</div>
+    <span class="semantic-container">This is a semantic container (span).</span>
+  
+    <!-- Footer section -->
     <footer>
         <p>&copy; 2023 Jinsong Lin</p>
     </footer>
+    
 </body>
 </html>
